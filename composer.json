@@ -1,0 +1,31 @@
+{
+    "name": "caridea/module",
+    "type": "library",
+    "description": "A shrimp of an application module loader",
+    "keywords": ["module", "plugin", "bundle", "extension"],
+    "homepage": "http://github.com/libreworks/caridea-module",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Caridea Contributors",
+            "homepage": "https://github.com/libreworks/caridea-module/contributors"
+        }
+    ],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
+    },
+    "require": {
+        "php": ">=7.0.0",
+        "caridea/container": "^2.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "Caridea\\Module\\": "src/"
+        }
+    }
+}
