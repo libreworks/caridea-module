@@ -10,8 +10,6 @@ This is its module loader. You can use it to write extensible applications.
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/libreworks/caridea-module/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/libreworks/caridea-module/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/libreworks/caridea-module/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/libreworks/caridea-module/?branch=master)
 
-We've also included `.hhi` files for the Hack typechecker.
-
 ## Installation
 
 You can install this library using Composer:
@@ -20,7 +18,8 @@ You can install this library using Composer:
 $ composer require caridea/module
 ```
 
-* The master branch (version 2.x) of this project requires PHP 7.0 and depends on `caridea/container`.
+* The master branch (version 3.x) of this project requires PHP 7.1 and depends on `caridea/container`.
+* Version 2.x of this project requires PHP 7.0 and depends on `caridea/container`.
 
 ## Compliance
 

@@ -15,7 +15,7 @@
  * the License.
  *
  * @copyright 2015-2017 Appertly
- * @copyright 2017 LibreWorks contributors
+ * @copyright 2017-2018 LibreWorks contributors
  * @license   Apache-2.0
  */
 namespace Caridea\Module;
@@ -27,7 +27,7 @@ use Caridea\Container\Properties;
 /**
  * It really is just for code coverage
  */
-class ModuleTest extends \PHPUnit_Framework_TestCase
+class ModuleTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @covers \Caridea\Module\Module
